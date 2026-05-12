@@ -85,8 +85,8 @@
         <path name="builtin_Mic_Mic1" value="turnon">
             <kctl name="ADC L Mux" value="Left Preamplifier" />
             <kctl name="ADC R Mux" value="Right Preamplifier" />
-            <kctl name="PGA L Mux" value="AIN0" />
-            <kctl name="PGA R Mux" value="AIN0" />
+            <kctl name="PGA L Mux" value="AIN2" />
+            <kctl name="PGA R Mux" value="AIN2" />
         </path>
         <path name="builtin_Mic_Mic1" value="turnoff">
             <kctl name="ADC L Mux" value="Idle" />
@@ -109,8 +109,8 @@
         <path name="builtin_Mic_Mic2" value="turnon">
             <kctl name="ADC L Mux" value="Left Preamplifier" />
             <kctl name="ADC R Mux" value="Right Preamplifier" />
-            <kctl name="PGA L Mux" value="AIN2" />
-            <kctl name="PGA R Mux" value="AIN2" />
+            <kctl name="PGA L Mux" value="AIN0" />
+            <kctl name="PGA R Mux" value="AIN0" />
         </path>
         <path name="builtin_Mic_Mic2" value="turnoff">
             <kctl name="ADC L Mux" value="Idle" />
@@ -121,8 +121,8 @@
         <path name="builtin_Mic_Mic2_Inverse" value="turnon">
             <kctl name="ADC L Mux" value="Left Preamplifier" />
             <kctl name="ADC R Mux" value="Right Preamplifier" />
-            <kctl name="PGA L Mux" value="AIN0" />
-            <kctl name="PGA R Mux" value="AIN0" />
+            <kctl name="PGA L Mux" value="AIN2" />
+            <kctl name="PGA R Mux" value="AIN2" />
         </path>
         <path name="builtin_Mic_Mic2_Inverse" value="turnoff">
             <kctl name="ADC L Mux" value="Idle" />
@@ -133,8 +133,8 @@
         <path name="builtin_Mic_SingleMic" value="turnon">
             <kctl name="ADC L Mux" value="Left Preamplifier" />
             <kctl name="ADC R Mux" value="Right Preamplifier" />
-            <kctl name="PGA L Mux" value="AIN0" />
-            <kctl name="PGA R Mux" value="AIN0" />
+            <kctl name="PGA L Mux" value="AIN2" />
+            <kctl name="PGA R Mux" value="AIN2" />
         </path>
         <path name="builtin_Mic_SingleMic" value="turnoff">
             <kctl name="ADC L Mux" value="Idle" />
@@ -145,8 +145,8 @@
         <path name="builtin_Mic_DualMic" value="turnon">
             <kctl name="ADC L Mux" value="Left Preamplifier" />
             <kctl name="ADC R Mux" value="Right Preamplifier" />
-            <kctl name="PGA L Mux" value="AIN0" />
-            <kctl name="PGA R Mux" value="AIN2" />
+            <kctl name="PGA L Mux" value="AIN1" />
+            <kctl name="PGA R Mux" value="AIN0" />
         </path>
         <path name="builtin_Mic_DualMic" value="turnoff">
             <kctl name="ADC L Mux" value="Idle" />
@@ -157,7 +157,7 @@
         <path name="builtin_Mic_DualMic_Inverse" value="turnon">
             <kctl name="ADC L Mux" value="Left Preamplifier" />
             <kctl name="ADC R Mux" value="Right Preamplifier" />
-            <kctl name="PGA L Mux" value="AIN2" />
+            <kctl name="PGA L Mux" value="AIN1" />
             <kctl name="PGA R Mux" value="AIN0" />
         </path>
         <path name="builtin_Mic_DualMic_Inverse" value="turnoff">
@@ -169,7 +169,7 @@
         <path name="builtin_Mic_BackMic" value="turnon">
             <kctl name="ADC L Mux" value="Left Preamplifier" />
             <kctl name="ADC R Mux" value="Right Preamplifier" />
-            <kctl name="PGA L Mux" value="AIN2" />
+            <kctl name="PGA L Mux" value="AIN1" />
             <kctl name="PGA R Mux" value="AIN0" />
         </path>
         <path name="builtin_Mic_BackMic" value="turnoff">
@@ -182,7 +182,7 @@
             <kctl name="ADC L Mux" value="Left Preamplifier" />
             <kctl name="ADC R Mux" value="Right Preamplifier" />
             <kctl name="PGA L Mux" value="AIN0" />
-            <kctl name="PGA R Mux" value="AIN2" />
+            <kctl name="PGA R Mux" value="AIN1" />
         </path>
         <path name="builtin_Mic_BackMic_Inverse" value="turnoff">
             <kctl name="ADC L Mux" value="Idle" />
@@ -193,8 +193,8 @@
         <path name="headset_mic_input" value="turnon">
             <kctl name="ADC L Mux" value="Left Preamplifier" />
             <kctl name="ADC R Mux" value="Right Preamplifier" />
-            <kctl name="PGA L Mux" value="AIN1" />
-            <kctl name="PGA R Mux" value="AIN1" />
+            <kctl name="PGA L Mux" value="AIN2" />
+            <kctl name="PGA R Mux" value="AIN2" />
         </path>
         <path name="headset_mic_input" value="turnoff">
             <kctl name="ADC L Mux" value="Idle" />
