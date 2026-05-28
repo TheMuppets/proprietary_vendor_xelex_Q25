@@ -553,7 +553,6 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libwvdrmengine \
     meta_wifi_data \
-    nfc_nci.st21nfc.st \
     s5kjn1_mipi_raw_IdxMgr \
     s5kjn1_mipi_raw_tuning \
     libaudiopreprocessing_mtk \
