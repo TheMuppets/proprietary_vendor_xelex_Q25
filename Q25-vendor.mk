@@ -136,7 +136,6 @@ PRODUCT_COPY_FILES += \
     vendor/xelex/Q25/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
     vendor/xelex/Q25/proprietary/vendor/etc/aurisys_config_rv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_rv.xml \
     vendor/xelex/Q25/proprietary/vendor/etc/default_pd_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/etc/default_pd_calibration.bin \
-    vendor/xelex/Q25/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/xelex/Q25/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/xelex/Q25/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
     vendor/xelex/Q25/proprietary/vendor/etc/ecc_list_OP02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP02.xml \
@@ -553,7 +552,6 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libwvdrmengine \
     meta_wifi_data \
-    nfc_nci.st21nfc.st \
     s5kjn1_mipi_raw_IdxMgr \
     s5kjn1_mipi_raw_tuning \
     libaudiopreprocessing_mtk \
