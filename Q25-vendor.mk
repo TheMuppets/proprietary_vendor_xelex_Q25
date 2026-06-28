@@ -778,7 +778,7 @@ PRODUCT_PACKAGES += \
     liblpcnr \
     libmipc \
     libmmagent \
-    libmnl \
+    libmnl_mtk \
     libmsnr \
     libmtk-fusion-ril-prop-vsim \
     libmtk-ril \
