@@ -437,7 +437,7 @@ PRODUCT_PACKAGES += \
     libdynamiclog \
     libfgauge_gm30 \
     libfile_op \
-    libformatter \
+    libformatter_mtk \
     libged \
     libgpu_aux \
     libgpud \
