@@ -299,6 +299,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl-mediatek \
     android.hardware.graphics.allocator@4.0-impl-mediatek \
     android.hardware.graphics.mapper@4.0-impl-mediatek \
+    audio.r_submix.mediatek \
     gps.default \
     gralloc.common \
     gralloc.default \
