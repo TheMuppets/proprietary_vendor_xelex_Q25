@@ -498,7 +498,6 @@ PRODUCT_PACKAGES += \
     libmvpu_runtime_pub \
     libmvpuop_mtk_cv \
     libmvpuop_mtk_nn \
-    libnbaio_mono \
     libneuralnetworks_sl_driver_mtk_prebuilt \
     libneuroeara \
     libneuron_adapter_mgvi \
