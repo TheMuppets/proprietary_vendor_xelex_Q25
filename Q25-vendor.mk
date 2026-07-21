@@ -7,6 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xelex/Q25/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
+    vendor/xelex/Q25/proprietary/system_ext/etc/sysconfig/com.mediatek.ims.config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/com.mediatek.ims.config.xml \
     vendor/xelex/Q25/proprietary/vendor/app/t6/02662e8e-e126-11e5-b86d9a79f06e9478.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/02662e8e-e126-11e5-b86d9a79f06e9478.ta \
     vendor/xelex/Q25/proprietary/vendor/app/t6/9ef77781-7bd5-4e39-965f20f6f211f400.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/9ef77781-7bd5-4e39-965f20f6f211f400.ta \
     vendor/xelex/Q25/proprietary/vendor/app/t6/b46325e6-5c90-8252-2eada8e32e5180d6.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/b46325e6-5c90-8252-2eada8e32e5180d6.ta \
@@ -896,7 +897,11 @@ PRODUCT_PACKAGES += \
     libsource \
     libvt_avsync \
     ImsService \
+    MtkGbaService \
+    MtkTelephonyAssist \
     mediatek-ims-base \
+    mediatek-telephony-base \
+    mediatek-telephony-common \
     mediatek-ims-extension-plugin \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
     android.hardware.security.keymint-service.trustkernel.xml \
@@ -973,3 +978,8 @@ PRODUCT_PACKAGES += \
     wmt_loader \
     xcap \
     vtservice
+
+PRODUCT_BOOT_JARS += \
+    mediatek-ims-base \
+    mediatek-telephony-base \
+    mediatek-telephony-common

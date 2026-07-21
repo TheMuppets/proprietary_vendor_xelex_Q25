@@ -23791,7 +23791,6 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libsource.so",
             ],
             shared_libs: [
-                "libui_shim",
                 "libbinder",
                 "libcutils",
                 "libgui",
@@ -23859,6 +23858,30 @@ android_app_import {
     system_ext_specific: true,
 }
 
+android_app_import {
+    name: "MtkGbaService",
+    owner: "xelex",
+    apk: "proprietary/system_ext/priv-app/MtkGbaService/MtkGbaService.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "MtkTelephonyAssist",
+    owner: "xelex",
+    apk: "proprietary/system_ext/priv-app/MtkTelephonyAssist/MtkTelephonyAssist.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
 dex_import {
     name: "mediatek-ims-base",
     owner: "xelex",
@@ -23868,11 +23891,28 @@ dex_import {
 }
 
 dex_import {
+    name: "mediatek-telephony-base",
+    owner: "xelex",
+    jars: [
+        "proprietary/system/framework/mediatek-telephony-base.jar",
+    ],
+}
+
+dex_import {
+    name: "mediatek-telephony-common",
+    owner: "xelex",
+    jars: [
+        "proprietary/system/framework/mediatek-telephony-common.jar",
+    ],
+}
+
+dex_import {
     name: "mediatek-ims-extension-plugin",
     owner: "xelex",
     jars: [
-        "proprietary/system/framework/mediatek-ims-extension-plugin.jar",
+        "proprietary/system_ext/framework/mediatek-ims-extension-plugin.jar",
     ],
+    system_ext_specific: true,
 }
 
 prebuilt_etc_xml {
