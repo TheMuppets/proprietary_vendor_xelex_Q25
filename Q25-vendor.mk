@@ -373,7 +373,6 @@ PRODUCT_PACKAGES += \
     lib_speech_enh \
     libaal_key \
     libadpcmdec_mtk \
-    libaedv \
     libaiselector \
     libapmonitor_vendor \
     libapu_mdw \
@@ -457,7 +456,6 @@ PRODUCT_PACKAGES += \
     libispcameraca \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
-    libladder \
     libminiui \
     libmml \
     libmnetlink_v104 \
