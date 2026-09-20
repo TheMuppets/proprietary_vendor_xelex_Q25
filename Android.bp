@@ -23899,14 +23899,6 @@ dex_import {
 }
 
 dex_import {
-    name: "mediatek-telephony-common",
-    owner: "xelex",
-    jars: [
-        "proprietary/system/framework/mediatek-telephony-common.jar",
-    ],
-}
-
-dex_import {
     name: "mediatek-ims-extension-plugin",
     owner: "xelex",
     jars: [

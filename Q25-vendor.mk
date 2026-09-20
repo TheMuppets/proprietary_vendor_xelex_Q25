@@ -901,7 +901,6 @@ PRODUCT_PACKAGES += \
     MtkTelephonyAssist \
     mediatek-ims-base \
     mediatek-telephony-base \
-    mediatek-telephony-common \
     mediatek-ims-extension-plugin \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
     android.hardware.security.keymint-service.trustkernel.xml \
@@ -981,5 +980,4 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     mediatek-ims-base \
-    mediatek-telephony-base \
-    mediatek-telephony-common
+    mediatek-telephony-base
